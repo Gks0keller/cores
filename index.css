@@ -37,7 +37,13 @@ div>h1{
 div>button{
     font-size: 20px;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 3px;
     border-radius: 20px;
+}
+
+nav>ul>li:hover:not(li:nth-child(1)){
+    border-radius: 20px;
+    padding: 3px;
+    background-color: red;
 }
